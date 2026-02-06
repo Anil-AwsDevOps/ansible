@@ -1,0 +1,13 @@
+- name: play level varaibles
+  hosts: local
+  connection: localhost
+
+  vars:
+    COURSE: aws
+    TRAINER: siva
+    FEE: 140
+  
+  tasks:
+  - name: print varaibles
+    ansible.builtin.debug:
+      msg: " course is : {{ CCOURSE }}, and trainer is {{ TRAINER }}"
