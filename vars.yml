@@ -10,6 +10,6 @@
   tasks:
   - name: print varaibles
     vars: 
-      COURSE: anil
+      TRAINER: anil
     ansible.builtin.debug:
       msg: " course is : {{ COURSE }}, and trainer is {{ TRAINER }}"
