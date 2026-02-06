@@ -10,4 +10,4 @@
   tasks:
   - name: print varaibles
     ansible.builtin.debug:
-      msg: " course is : {{ CCOURSE }}, and trainer is {{ TRAINER }}"
+      msg: " course is : {{ COURSE }}, and trainer is {{ TRAINER }}"
