@@ -1,0 +1,13 @@
+{
+    "firstname": "Anil",
+    "dob": "04-03-1999",
+    "addresses":[
+        {
+            "area": "gachibowli",
+            "type": "permanent",
+            "city": "Hyderabad"
+        }
+        
+    ]
+
+}

@@ -1,0 +1,38 @@
+
+<Students> <!--studen objects-->
+    <student1>
+        <FirstName>Suresh</FirstName>
+        <DOB>04-03-1999</DOB>
+        <Email>ramesh@gmail.com</Email>
+        <Adresses> <!--address object-->
+            <permanentAddress>
+                <Flat></Flat>
+                <street></street>
+                <city></city>
+            </permanentAddress>
+            <currentAddress>
+                <Flat></Flat>
+                <street></street>
+                <city></city>
+            </currentAddress>
+        </Adresses>       
+    </student1>
+    <student2> <!--student 2 object-->
+        <FirstName>Suresh</FirstName>
+        <DOB>04-03-1999</DOB>
+        <Email>ramesh@gmail.com</Email>
+        <Adresses> <!--address object-->
+            <permanentAddress>
+                <Flat></Flat>
+                <street></street>
+                <city></city>
+            </permanentAddress>
+            <currentAddress>
+                <Flat></Flat>
+                <street></street>
+                <city></city>
+            </currentAddress>
+        </Adresses>       
+    </student2>
+</Students>
+ 
