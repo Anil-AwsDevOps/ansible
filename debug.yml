@@ -1,0 +1,6 @@
+- name: hellow world
+  hosts: webservers
+  tasks:
+  - name: print hello world
+    ansible.built.debug: #task or module or collection
+      msg: "hello world!" #arguments
