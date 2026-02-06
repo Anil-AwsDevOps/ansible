@@ -1,6 +1,6 @@
 - name: play level varaibles
   hosts: local
-  connection: localhost
+  connection: local
 
   vars:
     COURSE: aws
