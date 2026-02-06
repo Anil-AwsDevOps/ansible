@@ -1,0 +1,25 @@
+- name: "anil"
+  dob: "324432"
+  addresses:
+  - flat: "anil"
+    street: "324432"
+    area: gachiwbowli
+    type: current
+
+  - flat: "anil"
+    street:
+    area:
+    type:
+    
+- name: "anil"
+  dob: "324432"
+  addresses:
+  - flat: "anil"
+    street: "324432"
+    area: gachiwbowli
+    type: current
+
+  - flat: "anil"
+    street:
+    area:
+    type:    

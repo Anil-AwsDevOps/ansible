@@ -1,10 +1,10 @@
 
-<Students> <!--studen objects-->
+<Students> <!--student objects-->
     <student1>
         <FirstName>Suresh</FirstName>
         <DOB>04-03-1999</DOB>
         <Email>ramesh@gmail.com</Email>
-        <Adresses> <!--address object-->
+        <Adresses> <!--addresses object-->
             <permanentAddress>
                 <Flat></Flat>
                 <street></street>

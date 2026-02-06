@@ -1,13 +1,40 @@
-{
-    "firstname": "Anil",
-    "dob": "04-03-1999",
-    "addresses":[
-        {
-            "area": "gachibowli",
-            "type": "permanent",
-            "city": "Hyderabad"
-        }
-        
+    {
+        "students":[
+            {
+        "firstname": "Anil",
+        "dob": "04-03-1999",
+        "addresses":[
+            {
+                "area": "gachibowli",
+                "type": "permanent",
+                "city": "Hyderabad"
+            },
+            {
+                "area": "kondapur",
+                "type": "current",
+                "city": "Hyderabad"
+            }
+            
+        ],
+        "skills": ["java","pyhton","aws"]
+    },
+      {
+        "firstname": "Anil",
+        "dob": "04-03-1999",
+        "addresses":[
+            {
+                "area": "gachibowli",
+                "type": "permanent",
+                "city": "Hyderabad"
+            },
+            {
+                "area": "kondapur",
+                "type": "current",
+                "city": "Hyderabad"
+            }
+            
+        ],
+        "skills": ["java","pyhton","aws"]
+    }
     ]
-
-}
+    }
