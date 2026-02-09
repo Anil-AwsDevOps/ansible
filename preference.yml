@@ -5,10 +5,10 @@
     NAME: "play variables"
   vars_files:
     - vars.yml
-  # vars_prompt:
-  # - name: NAME
-  #   prompt: please enter name
-  #   private: false
+   vars_prompt:
+   - name: NAME
+     prompt: please enter name
+     private: false
   tasks:
   - name: "ansible form task"
     vars:
