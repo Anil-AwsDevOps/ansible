@@ -1,5 +1,6 @@
 - name: hellow world
-  hosts: webservers
+  hosts: local
+  connection: local
   tasks:
   - name: print hello world
     ansible.builtin.debug: #task or module or collection
