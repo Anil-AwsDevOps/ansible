@@ -7,4 +7,4 @@
   - name: checking os
     ansible.builtin.debug:
       msg: " os is Redhat"
-    when: ansible_facts['os_family'] == os
+    when: ansible_facts['os_family'] == "RedHat"
