@@ -1,0 +1,10 @@
+- name: check os
+  hosts: local
+  connection: local
+  vars:
+    os: Redhat
+  tasks: 
+  - name: checking os
+    ansible.builtin.debug:
+      msg: " os is Redhat"
+    when: ansible_facts == os 
