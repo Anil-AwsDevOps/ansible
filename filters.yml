@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    Topics: linux, shell, ansible, terraform
+    topics: linux, shell, ansible, terraform
     tagsmap:
       name: ansible
       project: roboshop
@@ -25,3 +25,7 @@
   - name: greeting
     ansible.builtin.debug:
       msg: "Hi anil, {{ GREETING | default('good mrng') }}"
+
+  - name: convert to list
+    ansible.builtin.debug:
+      msg: " {{ topics | split(',')}}"
