@@ -1,6 +1,7 @@
 - name: check os
   hosts: localhost
   connection: local
+  gather_facts: yes
   vars:
     os: Redhat
   tasks: 
