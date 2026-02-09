@@ -1,6 +1,7 @@
 - name: loops
   hosts: local
   connection: local
+  become: yes
 
   tasks:
   - name: loops
@@ -10,3 +11,11 @@
     - kohli
     - rohit
     - dhoni
+  - name: install package
+    ansible.builtin.package:
+      name: "{{ item }}"
+      state: present
+    loop:
+    - nginx
+    - mysql
+     
