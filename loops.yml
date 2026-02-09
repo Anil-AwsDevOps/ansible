@@ -5,9 +5,8 @@
   tasks:
   - name: loops
     ansible.builtin.debug:
-    msg: " hello {{ item }}" # item is reserved keyword
+      msg: " hello {{ item }}" # item is reserved keyword
     loop:
     - kohli
     - rohit
     - dhoni
-    
