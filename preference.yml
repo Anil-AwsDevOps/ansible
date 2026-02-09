@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: "play variables"
-  vars_files:
-    - vars.yml
+  # vars_files:
+  #   - vars.yml
   vars_prompt:
   - name: NAME
     prompt: please enter name
@@ -18,3 +18,5 @@
 
   # 1 - args
   # 2 - task
+  # 3 - file
+
