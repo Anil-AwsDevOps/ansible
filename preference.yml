@@ -11,7 +11,10 @@
     private: false
   tasks:
   - name: "ansible form task"
-    vars:
-      NAME: "ansible from task"
+    # vars:
+    #   NAME: "ansible from task"
     ansible.builtin.debug:
       msg: " Hi {{ NAME }}"
+
+  # 1 - args
+  # 2 - task
