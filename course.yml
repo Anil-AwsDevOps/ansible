@@ -1,8 +1,8 @@
 - name: play level varaibles
   hosts: local
   connection: local
-  vars_files:
-  - vars.yml
+  #vars_files:
+ # - vars.yml
   tasks:
   - name: print varaibles
     vars: 
