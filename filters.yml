@@ -1,0 +1,27 @@
+- name: demo on filters
+  hosts: local
+  connection: local
+  vars:
+    Topics: linux, shell, ansible, terraform
+    tagsmap:
+      name: ansible
+      project: roboshop
+      component: catalogue
+    tagsList: [
+        {
+            "key": "name",
+            "value": "ansible"
+        },
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "component",
+            "value": "catalogue"
+        }
+    ]
+  tasks:
+  - name: greeting
+    ansible.builtin.debug:
+      msg: "Hi anil, {{ GREETING }}"
