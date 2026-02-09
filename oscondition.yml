@@ -1,5 +1,5 @@
 - name: check os
-  hosts: local
+  hosts: localhost
   connection: local
   gather_facts: yes
   vars:
