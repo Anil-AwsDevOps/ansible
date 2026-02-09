@@ -26,6 +26,10 @@
     ansible.builtin.debug:
       msg: "Hi anil, {{ GREETING | default('good mrng') }}"
 
-  - name: convert to list
+  - name: convert string to list
     ansible.builtin.debug:
       msg: " {{ topics | split(',')}}"
+  
+  - name: convert map to list
+    ansible.builtin.debug:
+      msg:"{{ tagsmap | dict2items }}"
