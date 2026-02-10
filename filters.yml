@@ -50,5 +50,5 @@
 
   - name: convert to lower
     ansible.builtin.debug:
-      msg:"{{ course | lower }}"
+      msg: "{{ course | lower }}"
 
