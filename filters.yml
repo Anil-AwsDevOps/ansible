@@ -53,6 +53,6 @@
       msg: "{{ course | lower }}"
   
   - name: convert to upper
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "{{ course | upper }}"
 
